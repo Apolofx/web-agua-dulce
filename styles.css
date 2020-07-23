@@ -44,7 +44,7 @@ header .logo a {
   height: 200px;
   width: 200px;
   padding: 0;
-  text-indent: -99999999px;
+  text-indent: -99999px;
 }
 
 nav ul {
@@ -88,5 +88,6 @@ footer {
   background: black;
   padding: 10px 20px;
   text-align: center;
+  font-size: 12px;
   color: grey;
 }

@@ -24,7 +24,7 @@ header a {
   text-decoration: none;
   color: white;
   border-radius: 10px;
-  box-shadow: grey 0 0 5px;
+  box-shadow: grey -1px 1px 5px;
   text-transform: uppercase;
   margin-top: 200px;
   padding: 5px;
@@ -39,8 +39,7 @@ header .logo a {
   top: 40px;
   height: 200px;
   width: 200px;
-  padding: 0;
-  text-indent: -99999px;
+  /* text-indent: -99999px; */
   box-shadow: none;
 }
 
@@ -61,12 +60,20 @@ nav li {
   margin-right: 20px;
 }
 
+/* RESPONSIVE RULES */
+@media screen and (max-width: 700px) {
+  .logo {
+    display: none;
+  }
+}
+
 /* FEATURES */
 
 .features {
   background: white;
   color: grey;
   padding: 20px;
+  padding-top: 40px;
   display: flex;
   flex-direction: row;
 }

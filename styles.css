@@ -13,6 +13,8 @@ header {
   background-image: url("assets/medicion.jpg");
   background-size: 100%;
   background-position: center;
+  display: flex;
+  align-items: flex-end;
   padding: 20px;
   height: 250px;
   text-align: left;
@@ -33,18 +35,19 @@ header a:hover {
 }
 
 header .logo a {
-  background-image: url("assets/logo_redondo.png");
-  background-size: 200px;
-  background-repeat: no-repeat;
-  border-radius: 50%;
-  box-shadow: black 0 0 10px;
-  display: inline-block;
   position: relative;
-  top: -180px;
+  top: 40px;
   height: 200px;
   width: 200px;
   padding: 0;
   text-indent: -99999px;
+  box-shadow: none;
+}
+
+header .logo img {
+  border: 1px solid white;
+  border-radius: 50%;
+  box-shadow: grey 0 0 10px;
 }
 
 nav ul {

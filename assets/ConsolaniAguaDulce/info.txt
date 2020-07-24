@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Rounded_Elegance
+font link: https://www.dafont.com/rounded-elegance.font
+font author: Genumano
+font author site: mailto:dcc700@gmail.com
+Slogan Font: Rounded_Elegance
+
+icon designer: Nicole Macdonald
+icon designer link: /Nicole.Macdonald.22
+        
+{"bg":"#EDF2F3","icon-gradient-0":"#20484F","icon-gradient-1":"#4E9BAB","font":"#12262A","slogan":"#263a3e"}
+      

@@ -14,14 +14,14 @@ body {
 /* HEADER */
 header {
   background: black;
-  background-image: url("assets//ConsolaniAguaDulce/default.png");
+  background-image: url("assets//ConsolaniAguaDulce/vector/default.svg");
   background-size: 100%;
   background-position: right;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
-  height: 250px;
+  height: 450px;
 }
 
 header a {
@@ -54,6 +54,11 @@ nav li {
 @media screen and (max-width: 700px) {
   header {
     height: 200px;
+  }
+}
+@media screen and (max-width: 970px) {
+  header {
+    height: 250px;
   }
 }
 

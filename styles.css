@@ -6,51 +6,41 @@ body {
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: RoundedElegance;
+  src: url(assets/rounded_elegance/Rounded_Elegance.ttf);
+}
 
 /* HEADER */
 header {
   background: black;
-  background-image: url("assets/medicion.jpg");
+  background-image: url("assets//ConsolaniAguaDulce/default.png");
   background-size: 100%;
-  background-position: center;
+  background-position: right;
   display: flex;
+  justify-content: flex-end;
   align-items: flex-end;
   padding: 20px;
   height: 250px;
-  text-align: left;
 }
 
 header a {
+  font-family: RoundedElegance;
+  font-weight: 600;
   text-decoration: none;
-  color: white;
+  color: #12262a;
   border-radius: 10px;
-  box-shadow: grey -1px 1px 5px;
+  box-shadow: #263a3e28 0px 0px 4px;
   text-transform: uppercase;
-  margin-top: 200px;
-  padding: 5px;
+  padding: 10px;
 }
 
 header a:hover {
-  box-shadow: black 0 0 10px;
-}
-
-header .logo a {
-  position: relative;
-  top: 40px;
-  height: 200px;
-  width: 200px;
-  /* text-indent: -99999px; */
-  box-shadow: none;
-}
-
-header .logo img {
-  border: 1px solid white;
-  border-radius: 50%;
-  box-shadow: grey 0 0 10px;
+  box-shadow: #263a3e9f 0 0 10px;
 }
 
 nav ul {
-  margin: 0;
+  margin-bottom: 10px;
   padding: 0;
   list-style-type: none;
 }
@@ -62,8 +52,8 @@ nav li {
 
 /* RESPONSIVE RULES */
 @media screen and (max-width: 700px) {
-  .logo {
-    display: none;
+  header {
+    height: 200px;
   }
 }
 

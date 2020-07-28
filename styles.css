@@ -69,6 +69,13 @@ nav li {
   }
 }
 
+hr {
+  border-width: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: grey 0px 0px 10px 1px;
+}
+
 /* FEATURES */
 
 .features {

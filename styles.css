@@ -5,13 +5,15 @@ Slogan Font: Rounded_Elegance
 {"bg":"#EDF2F3","icon-gradient-0":"#20484F","icon-gradient-1":"#4E9BAB","font":"#12262A","slogan":"#263a3e"}
        */
 
-body {
-  background-color: white;
+body,
+html {
+  background: #edf2f3;
+
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0;
-  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 @font-face {
   font-family: RoundedElegance;
@@ -20,7 +22,6 @@ body {
 
 /* HEADER */
 header {
-  background: black;
   background-image: url("assets//ConsolaniAguaDulce/vector/default.svg");
   background-size: 100%;
   background-position: right;
@@ -69,17 +70,9 @@ nav li {
   }
 }
 
-hr {
-  border-width: 0px;
-  margin-top: 0;
-  margin-bottom: 0;
-  box-shadow: grey 0px 0px 10px 1px;
-}
-
 /* FEATURES */
 
 .features {
-  background: #edf2f3;
   color: grey;
   padding: 20px;
   padding-top: 40px;
@@ -93,15 +86,31 @@ hr {
   text-transform: uppercase;
   margin: auto;
   padding: 10px;
-  width: 200px;
+  width: 300px;
 }
 
 .features figure img {
   border: 1px solid white;
   border-radius: 50%;
-  width: 200px;
+  width: 300px;
   box-shadow: grey 0 0 10px;
   margin-bottom: 10px;
+  transition: all 0.5s ease;
+}
+
+.features figure img:hover {
+  transform: scale(1.5);
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+}
+
+.fb-video {
+  margin: 10px;
 }
 
 /* FOOTER */

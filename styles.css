@@ -7,8 +7,6 @@ Slogan Font: Rounded_Elegance
 
 body,
 html {
-  background: #edf2f3;
-
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -28,8 +26,8 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  padding: 20px;
   height: 450px;
+  padding: 3rem 1rem;
 }
 
 header a {
@@ -40,7 +38,7 @@ header a {
   border-radius: 10px;
   box-shadow: #263a3e28 0px 0px 4px;
   text-transform: uppercase;
-  padding: 10px;
+  padding: 0.8em 1em;
 }
 
 header a:hover {
@@ -73,9 +71,10 @@ nav li {
 /* FEATURES */
 
 .features {
+  box-shadow: rgba(128, 128, 128, 0.507) 0px 0px 10px 1px;
+  background: #edf2f3;
   color: grey;
-  padding: 20px;
-  padding-top: 40px;
+  padding: 3rem 1rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -103,10 +102,12 @@ nav li {
 }
 
 .videos {
+  box-shadow: rgba(128, 128, 128, 0.507) 0px 0px 10px;
+  background: #edf2f3;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 3rem;
+  padding: 3rem 1rem;
 }
 
 .fb-video {
